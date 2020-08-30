@@ -18,7 +18,7 @@ yum install -y etcd kubernetes
 
 把KUBE_API_ADDRESS修改成 KUBE_API_ADDRESS="--insecure-bind-address=0.0.0.0"
 
-(4)按顺序启动所有服务
+(4) 按顺序启动所有服务
 
 systemctl start etcd
 
@@ -33,3 +33,8 @@ systemctl start kube-scheduler
 systemctl start kubelet
 
 systemctl start kube-proxy
+
+(5) 关闭所有服务
+
+
+
