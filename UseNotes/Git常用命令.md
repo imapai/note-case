@@ -178,6 +178,15 @@ $ git push <remote> <branch>
 $ git push <remote> --all
 ```
 
+<kbd>tip</kbd>: 
+
+**git fetch与git pull区别**
+
+> 1. git fetch：相当于是从远程获取最新版本到本地，不会自动 merge
+> 2. git pull：相当于是从远程获取最新版本并 merge 到本地
+
+git fetch 更安全一些。因为在 merge 前，我们可以查看更新情况，然后再决定是否合并结束。
+
 ## 撤销
 
 ``` shell
@@ -217,7 +226,22 @@ $ git stash pop stash@{$num}
 $ git stash clear
 ```
 
-## 其他
+## 比较提交 git diff
+
+``` shell
+# 显示工作目录 (working tree) 与索引区 (即暂存区快照，index，就是 git add 过的) 之间的文件变更，即显示未被 add 的文件变更。
+$ git diff
+# 显示索引区和最后一次 commit (HEAD) 之间的文件更改，即显示已 add 但还未 commit 的文件变更。也即用 "git commit"（不带 - a）将被提交的文件变更。
+$ git diff --cached 或 git diff --staged 
+# 显示工作目录与最后一次 commit 之间的文件变更，即显示所有未 commit（包括未 add 和 add 两类）的文件变更。也即用 "git commit -a” 将被提交的文件变更。 
+$ git diff HEAD
+# 比较两个分支上最后 commit 的内容的差别。
+$ git diff <分支名 1> < 分支名 2> 
+```
+
+
+
+## 打包
 
 ``` shell
 # 生成一个可供发布的压缩包
