@@ -232,7 +232,7 @@ $ git archive
 
 步骤：
 
-+ 本地初始化，`git init`
++ 本地初始化，`git init`，`git add .`，`git commit -m 'init repository'`
 + 建立远程仓库关联，`git remote add origin [Url]` 
 + 本地分支关联远程，`git branch --set-upstream-to=orgin/<romote_branch>  local_branch`，或者直接推送并关联，`git push --set-upstream origin master` 
 

@@ -225,9 +225,7 @@ Rows matched: 1  Changed: 1  Warnings: 1
 
 8，navicat测试远程连接
 
-
-
-xgng[3780]ZXG
+hw:xgng3780
 
 ### 修改密码安全权
 
