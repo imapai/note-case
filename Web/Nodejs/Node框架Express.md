@@ -1,5 +1,7 @@
 # Express框架
 
+Express更像是一个使用nodejs编写后端项目的脚手架，可以十分方便的定义项目的，提供一些十分简单明了的API，让nodejs开发后端更加便捷。
+
 ## 创建express项目
 
 ``` 
@@ -36,7 +38,7 @@ app.listen(3000,(req, res) => {
 
 创建路由
 
-``` 
+``` javascript
 const exress = require('express')
 
 const router = express.Router()
