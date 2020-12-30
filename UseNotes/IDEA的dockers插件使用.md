@@ -15,7 +15,7 @@ vi /lib/systemd/system/docker.service
 
 ```
 
-![image-20201010173127061](IDEA的dockers插件使用-img\image-20201010173127061.png)
+![image-20201010173127061](image/IDEA的dockers插件使用/image-20201010173127061.png)
 
 ``` shell 
 注释ExecStart行
@@ -49,23 +49,23 @@ curl http://localhost:2375/version
 
 如下，输出：
 
-![image-20201010173940191](IDEA的dockers插件使用-img/image-20201010173940191.png)
+![image-20201010173940191](image/IDEA的dockers插件使用/image-20201010173940191.png)
 
 ## 配置连接远程Docker
 
 在idea中添加远程docker的访问地址
 
-![image-20201010174329915](IDEA的dockers插件使用-img/image-20201010174329915.png)
+![image-20201010174329915](image/IDEA的dockers插件使用/image-20201010174329915.png)
 
 之后便可以在idea主页看到docker信息，可以看到docker中的容器和镜像文件，可视化的对容器或者镜像进行操作，十分方便不在演示。
 
-![image-20201010174516378](IDEA的dockers插件使用-img/image-20201010174516378.png)
+![image-20201010174516378](image/IDEA的dockers插件使用/image-20201010174516378.png)
 
 ## 创建容器
 
 通过右键镜像文件，选择创建容器，简单配置即可
 
-![image-20201010175152155](IDEA的dockers插件使用-img/image-20201010175152155.png)
+![image-20201010175152155](image/IDEA的dockers插件使用/image-20201010175152155.png)
 
 ## 一键部署应用
 

@@ -1,6 +1,6 @@
 # Git常用命令
 
-![git命令流程图](Git常用命令-img/git命令流程图.png)
+![git命令流程图](/image/Git常用命令/git命令流程图.png)
 
 解释：
 

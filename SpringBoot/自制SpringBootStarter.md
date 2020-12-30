@@ -2,7 +2,7 @@
 如果spring扫描到一个类加了@Configuration注解，那么这个类下面的@bean注解的返回对象就会注册到spring的容器里面
 然后就能通过@Autowired注解获取bean
 
-![image-20200902095535649](E:\document\note_case\SpringBoot\自制SpringBootStarter-img\image-20200902095535649.png)
+![image-20200902095535649](image\自制SpringBootStarter\image-20200902095535649.png)
 
 因此，需要通过一个配置类将实例加入到`bean`中，具体实现步骤如下：
 
