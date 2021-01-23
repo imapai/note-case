@@ -137,6 +137,10 @@ info: >> generation finished with success in 0.4s !
 
 然后在终端输入 `gitbook install ./` 即可
 
+插件一：
+
+- [gitbook-plugin-summary](https://github.com/julianxhokaxhiu/gitbook-plugin-summary) 自动生成Summary目录
+
 ## 附录：
 
 [Gitbook官网]:https://docs.gitbook.com/
