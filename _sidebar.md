@@ -5,7 +5,6 @@
   * [docker基础](Docker/docker基础.md)
 * [ElasticSearch]()
   * [ElasticSearch](ElasticSearch/ElasticSearch.md) 
-  * [ElasticSearch基础](ElasticSearch/ElasticSearch基础.md)
 * [Hadoop]()
   * [Hadoop基础笔记](Hadoop/Hadoop基础笔记.md)
 * [InstallNotes]()

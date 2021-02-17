@@ -5,9 +5,8 @@
 目录说明：
 
 ``` 
-- Docker docker
+- Docker docker相关内容
 - ElasticSearch
-- ELK 
 - Go 
 - Hadoop  
 - InstallNotes #安装笔记
@@ -16,13 +15,13 @@
 - Scala
 - SpringBoot
 - SpringCloud
-- UseNotes # 简单使用笔记
+- UseNotes # 工具简单使用
 - Web
 ```
 
 hope:
 
-第一个长期坚持更新、推送的项目。
+长期坚持更新、推送的项目。
 
 
 
