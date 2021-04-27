@@ -1,0 +1,8 @@
+- [返回首页](/)
+- [InstallNotes](InstallNotes/)
+  - [ApacheHttpd文件服务](InstallNotes/ApacheHttpd文件服务.md)
+  - [image](InstallNotes/image/)
+    - [jenkins](InstallNotes/image/jenkins/)
+  - [jenkins](InstallNotes/jenkins.md)
+  - [Linux的Mysql使用rpm安装采坑指南](InstallNotes/Linux的Mysql使用rpm安装采坑指南.md)
+  - [Minio自建OSS对象存储](InstallNotes/Minio自建OSS对象存储.md)

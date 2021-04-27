@@ -43,6 +43,8 @@ docsify init
   </script>
 ```
 
-## 复杂配置
+## 小工具
+
+自动生成目录文件，github地址：https://github.com/imapai/Docsify-Build-Sidebar
 
 请参考[官方文档](https://docsify.js.org/#/zh-cn/)

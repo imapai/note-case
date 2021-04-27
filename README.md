@@ -1,27 +1,52 @@
-# 介绍
-
-本项目为记录笔记，纯手工敲打参考文档，新技术的学习，或者是编码相关的工具的使用。
-
-目录说明：
-
-``` 
-- Docker docker相关内容
-- ElasticSearch
-- Go 
-- Hadoop  
-- InstallNotes #安装笔记
-- Java
-- Kubernetes
-- Scala
-- SpringBoot
-- SpringCloud
-- UseNotes # 工具简单使用
-- Web
-```
-
-hope:
-
-长期坚持更新、推送的项目。
-
-
-
+- [Docker](Docker/)
+  - [docker4springboot](Docker/docker4springboot.md)
+  - [docker基础](Docker/docker基础.md)
+- [ElasticSearch](ElasticSearch/)
+  - [ElasticSearch](ElasticSearch/ElasticSearch.md)
+- [Go](Go/)
+  - [Golang之道-基础](Go/Golang之道-基础.md)
+  - [Go命名规范](Go/Go命名规范.md)
+  - [Go语言之优雅的Switch语句](Go/Go语言之优雅的Switch语句.md)
+- [Hadoop](Hadoop/)
+  - [Hadoop基础笔记](Hadoop/Hadoop基础笔记.md)
+- [InstallNotes](InstallNotes/)
+  - [ApacheHttpd文件服务](InstallNotes/ApacheHttpd文件服务.md)
+  - [image](InstallNotes/image/)
+    - [jenkins](InstallNotes/image/jenkins/)
+  - [jenkins](InstallNotes/jenkins.md)
+  - [Linux的Mysql使用rpm安装采坑指南](InstallNotes/Linux的Mysql使用rpm安装采坑指南.md)
+  - [Minio自建OSS对象存储](InstallNotes/Minio自建OSS对象存储.md)
+- [Java](Java/)
+- [Kubernetes](Kubernetes/)
+  - [kubernetes](Kubernetes/kubernetes.md)
+  - [尚硅谷学习笔记](Kubernetes/尚硅谷学习笔记.md)
+- [Scala](Scala/)
+  - [Scala笔记](Scala/Scala笔记.md)
+- [SpringBoot](SpringBoot/)
+  - [image](SpringBoot/image/)
+    - [自制SpringBootStarter](SpringBoot/image/自制SpringBootStarter/)
+  - [自制SpringBootStarter](SpringBoot/自制SpringBootStarter.md)
+- [SpringCloud](SpringCloud/)
+  - [consul](SpringCloud/consul.md)
+  - [SpringGateway](SpringCloud/SpringGateway.md)
+- [UseNotes](UseNotes/)
+  - [Apollo](UseNotes/Apollo.md)
+  - [Gitbook写文档](UseNotes/Gitbook写文档.md)
+  - [Gitbook替代者docsify](UseNotes/Gitbook替代者docsify.md)
+  - [Git常用命令](UseNotes/Git常用命令.md)
+  - [Git配置多个远程仓库](UseNotes/Git配置多个远程仓库.md)
+  - [IDEA的dockers插件使用](UseNotes/IDEA的dockers插件使用.md)
+  - [image](UseNotes/image/)
+    - [Git常用命令](UseNotes/image/Git常用命令/)
+    - [IDEA的dockers插件使用](UseNotes/image/IDEA的dockers插件使用/)
+  - [Node终极版本管理方案NVM](UseNotes/Node终极版本管理方案NVM.md)
+  - [Nrm-npm镜像源管理](UseNotes/Nrm-npm镜像源管理.md)
+  - [Oh-My-Zsh](UseNotes/Oh-My-Zsh.md)
+- [Web](Web/)
+  - [CSS](Web/CSS/)
+    - [CSS核心](Web/CSS/CSS核心.md)
+  - [Html](Web/Html/)
+    - [HTML核心](Web/Html/HTML核心.md)
+  - [JavaScript](Web/JavaScript/)
+  - [Nodejs](Web/Nodejs/)
+    - [Node框架Express](Web/Nodejs/Node框架Express.md)
