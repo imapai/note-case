@@ -1,4 +1,6 @@
-# Linux安装Mysql5.5
+# MySql安装踩坑指南
+
+## Linux安装Mysql5.5
 
 本次安装的是mysql的5.5版本，使用npm包的方式安装
 
@@ -225,7 +227,7 @@ Rows matched: 1  Changed: 1  Warnings: 1
 
 8，navicat测试远程连接
 
-hw:xgng3780
+注：windows配置文件在C:\ProgramData\MySQL\MySQL Server 5.7\my.ini
 
 ### 修改密码安全权
 
