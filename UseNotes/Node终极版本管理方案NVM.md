@@ -8,7 +8,14 @@
 
 ## 配置
 
-### 修改nvm配置
+### 环境变量设置
+
+如安装未自动配置环境变量，手动配置如下：
+
+- 配置 NVM_HOME：`D:\software\nvm` ，nvm安装目录
+- 配置 NVM_SYMLINK: `F:\environment\nodejs`，nodejs目录
+
+### 配置淘宝代理镜像源
 
 安装目录的setting.txt文件如下：
 
@@ -25,12 +32,11 @@ npm_mirror: https://npm.taobao.org/mirrors/npm/
 
 ```
 
-### 环境变量设置
+npm安装源，这个也要配置才可以哦
 
-如安装未自动配置环境变量，手动配置如下：
-
-- 配置 NVM_HOME：`D:\software\nvm` ，nvm安装目录
-- 配置NVM_SYMLINK: `F:\environment\nodejs`，nodejs目录
+``` shell
+npm config set registry https://registry.npm.taobao.org/
+```
 
 ## 常用命令
 
