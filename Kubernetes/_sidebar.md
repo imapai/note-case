@@ -1,4 +1,0 @@
-- [返回首页](/)
-- [Kubernetes](Kubernetes/)
-  - [kubernetes](Kubernetes/kubernetes.md)
-  - [尚硅谷学习笔记](Kubernetes/尚硅谷学习笔记.md)

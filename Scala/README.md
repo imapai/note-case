@@ -1,3 +1,0 @@
-- [返回首页](/)
-- [Scala](Scala/)
-  - [Scala笔记](Scala/Scala笔记.md)
