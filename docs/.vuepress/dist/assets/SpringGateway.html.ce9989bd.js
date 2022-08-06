@@ -1,1 +1,0 @@
-const t=JSON.parse('{"key":"v-0c153682","path":"/SpringCloud/SpringGateway.html","title":"Spring Boot Gateway","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"SpringCloud/SpringGateway.md"}');export{t as data};

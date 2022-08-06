@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as o,a as _}from"./app.9b05354a.js";const c={},n=_("p",null,"Go\u8BED\u8A00\u76F8\u5173\u7B14\u8BB0",-1),s=[n];function a(r,l){return t(),o("div",null,s)}var i=e(c,[["render",a],["__file","index.html.vue"]]);export{i as default};
