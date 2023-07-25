@@ -7,7 +7,7 @@ export default defineUserConfig({
   title: "未销的笔记",
   description: "学习笔记在线站点",
   // 上下文根
-  base: "/notes/",
+  base: "/note-case/",
   theme: defaultTheme({
     navbar: navbar,
     sidebar: sidebar,
