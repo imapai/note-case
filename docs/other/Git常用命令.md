@@ -67,8 +67,6 @@ $ git commit -v
 $ git commit -a
 ```
 
-
-
 ## 分支branch
 
 ### 查看
@@ -239,16 +237,12 @@ $ git diff HEAD
 $ git diff <分支名 1> < 分支名 2> 
 ```
 
-
-
 ## 打包
 
 ``` shell
 # 生成一个可供发布的压缩包
 $ git archive
 ```
-
-
 
 ## 场景示例
 

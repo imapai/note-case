@@ -1,12 +1,14 @@
 ## 运行
-> 初始化项目  
-> yarn init  
-> 安装项目本地依赖 VuePress  
-> yarn add -D vuepress@next  
-> 本地运行  
-> yarn run docs:run    
-> 打包生成部署文件  
-> yarn run docs:build  
+``` shell
+#初始化项目  
+yarn init  
+#安装项目本地依赖 VuePress  
+yarn add -D vuepress@next  
+#本地运行  
+yarn docs:run    
+#打包生成部署文件  
+yarn docs:build 
+```
 ## 配置
 - 修改 /.vuepress/config.ts 进行个性化设置，具体可参考官方文档。  
 - 修改 /.vuepress/sidebar.ts 进行左侧边栏配置。

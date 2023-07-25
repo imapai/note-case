@@ -182,6 +182,8 @@ docker run -p 12345:3306 --name="alimysql" -e MYSQL_ROOT_PASSWORD=123456 -di mys
 >
 > -d mysql:5.6 : 后台程序运行mysql5.6
 
+
+
 #### 部署tomcat9
 
 ``` shell
@@ -271,7 +273,53 @@ docker run -e ES_JAVA_OPTS="-Xms256m -Xmx256m" -d -p 9200:9200 -p 9300:9300 --na
 
 ## Dockerfile
 
-可以通过配置使用基于基础镜像（如centos）创建，包含其他软件的容器，如使用 Dockerfile 创建包含 jdk1.8 的 centos7。
+Docker通过从Dockerfile中读取指令来自动构建映像——Dockerfile是一个文本文件，包含了构建给定映像所需的所有命令，按顺序排列。Dockerfile遵循特定的格式和指令集，用于快速创建自定义的 Docker 镜像。
+
+**1、 FROM**
+
+指定基础镜像（必须有的指令，并且必须是第一条指令）
+
+**2、 WORKDIR**
+
+格式为 `WORKDIR` <工作目录路径>
+
+使用 `WORKDIR` 指令可以来**指定工作目录**（或者称为当前目录），以后各层的当前目录就被改为指定的目录，如果目录不存在，`WORKDIR` 会帮你建立目录
+
+**3、COPY**
+
+格式：
+
+```
+COPY <源路径>... <目标路径>
+COPY ["<源路径1>",... "<目标路径>"]
+```
+
+`COPY` 指令将从构建上下文目录中 <源路径> 的文件/目录**复制**到新的一层的镜像内的 <目标路径> 位置
+
+**4、RUN**
+
+用于执行命令行命令
+
+格式：`RUN` <命令>
+
+**5、EXPOSE**
+
+格式为 `EXPOSE` <端口 1> [<端口 2>...]
+
+`EXPOSE` 指令是**声明运行时容器提供服务端口，这只是一个声明**，在运行时并不会因为这个声明应用就会开启这个端口的服务
+
+在 Dockerfile 中写入这样的声明有两个好处
+
+- 帮助镜像使用者理解这个镜像服务的守护端口，以方便配置映射
+- 运行时使用随机端口映射时，也就是 `docker run -P` 时，会自动随机映射 `EXPOSE` 的端口
+
+**6、ENTRYPOINT**
+
+`ENTRYPOINT` 指令是**指定容器启动程序及参数**
+
+```
+ENTRYPOINT ["bash", "-c", "java $JAVA_OPTS -jar /app.jar && 1"]
+```
 
 ## 搭建私有仓库
 

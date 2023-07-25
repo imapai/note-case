@@ -6,6 +6,7 @@
   "author": "lyonmusk <aimapai@outlook.com>",
   "license": "MIT",
   "devDependencies": {
+    "@vuepress/plugin-search": "^2.0.0-beta.66",
     "vuepress": "^2.0.0-beta.49"
   },
   "scripts": {
