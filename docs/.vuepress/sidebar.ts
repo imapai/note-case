@@ -42,7 +42,8 @@ export default {
                 '/other/Nrm-npm镜像源管理.md',
                 '/other/Oh-My-Zsh.md',
                 '/other/docker4springboot.md',
-                '/other/docker基础.md'
+                '/other/docker基础.md',
+                '/other/brew 常用命令.md',
             ]
         }
     ]
